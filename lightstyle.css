@@ -160,7 +160,7 @@
         }
 
         .mainfoot {
-          background-color: #f1f1f1;
+          background-color: transparent;
           padding: 20px;
           float: left;
           width: 30%; /
@@ -171,8 +171,10 @@
 
     footer {
         background-color: #000000;
+        float: right;
         color: white;
     padding: 20px;
+        width: 30%;
     text-align: right;
      height:100;  
     
@@ -188,7 +190,7 @@
   }
   
 
-    .leftfoot, .mainfoot {
+    .leftfoot, .mainfoot, footer{
     width: 100%;
   }   
         
@@ -207,5 +209,6 @@
         }
         
         }
+        
         
         
